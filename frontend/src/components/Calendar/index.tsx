@@ -5,7 +5,7 @@ function Calendar() {
 
 
 
-  let newArr: number[][] = [[]]
+  let newArr: any[][] = [[]]
   let arrayIndex = 0;
 
   for (let i = 1; i < 117; i++) {
@@ -24,6 +24,8 @@ function Calendar() {
   for (let i = 0; i < 7-newArr.at(-1)!.length ; i++) {
     newArr.at(-1)!.push(0)
   }
+
+  newArr.unshift(['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'])
   console.log(newArr)
 
   /*const newArr = [0,1,2,3,4,5,6,7,8,9].reduce((final, curr, i) => {
@@ -42,14 +44,14 @@ function Calendar() {
           {newArr.map((el,i) => {
             return (
               <tr>
-                <td className='day'>{i}</td>
+                <td className='week'>{i+1}</td>
                 {el.map((el, i) => {
                   return (
                     <td className= 'day'>
                       <div 
                         style={{
                             color: (i+1) %6 == 0 || (i+1) % 7 == 0 
-                            ? 'red' 
+                            ? '#17A1FA;' 
                             : 'black'
                         }}>
                           {el == 0 ? ' ' : el}

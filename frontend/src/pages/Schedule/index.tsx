@@ -41,17 +41,17 @@ function Schedule() {
 
       <div className='dates'>
         <div className='date'>
+          <span>Расписание</span>
           <div className='months'>
-            <div>май</div>
-            <div>апрель</div>
             <div>март</div>
+            <div className='now'>апрель</div>
+            <div>май</div>
           </div>
-
-            <Calendar />
+          <Calendar />
         </div>
         <div className='lessons'>
-          <Lesson number={1} name={'Молеку'} place={'5-14'} teacher={'Иван Иванов'} />
-          <Lesson number={2} name={'Молеку'} place={'5-14'} teacher={'Иван Иванов'} />
+          <Lesson number={1} name={'Молекулярная физика'} place={'5-14'} teacher={'Иван Иванов'} />
+          <Lesson number={2} name={'Молекулярная физика'} place={'5-14'} teacher={'Иван Иванов'} />
         </div>
       </div>
     </div>

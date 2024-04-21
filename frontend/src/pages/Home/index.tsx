@@ -13,7 +13,7 @@ function Home() {
         <div className='about'>Наше приложение позволит получить доступ к сервисам для студентов ФФ МГУ!</div>
         <div className='info'>Для просмотра расписания введите свою группу:</div>
 
-        <input type="text" />
+        <input type="text" placeholder='Введите группу' />
 
         <Link to="/schedule" className='button'>
           Перейти к расписанию
