@@ -2,7 +2,7 @@ import './style.css'
 import man_pro from '../../../public/human/man_profile.svg'
 import { useState } from 'react'
 import { loginUserByEmail } from '../../http/API'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import {  setEmail, setToken } from '../../store/redusers/dataSlice'
 import { useNavigate } from 'react-router-dom'
 
