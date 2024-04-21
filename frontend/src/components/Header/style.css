@@ -1,10 +1,11 @@
 .header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #EFEFEF;
     min-height: 50px;
     height: 100px;
-    padding: 0 0 0 330px;
+    padding: 0 330px;
 
     font-family: Caveat;
     font-size: 30px;

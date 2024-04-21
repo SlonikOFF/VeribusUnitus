@@ -16,8 +16,8 @@ function Lesson({number, name, place, teacher}: LessonProps) {
       <div className='numberClass'>{number} пара</div>
       <div className='class'>
         <div className='time'>
-          <div className='firstTime'>9:00</div>
-          <div className='secondTime'>10:35</div>
+          <div className='firstTime'>{number === 1 ? "9:00" : "10:50"}</div>
+          <div className='secondTime'>{number === 1 ? "10:35" : "12:25"}</div>
         </div>
 
         <div className='info'>
