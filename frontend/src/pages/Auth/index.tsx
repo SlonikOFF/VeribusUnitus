@@ -1,14 +1,14 @@
 import './style.css'
 import man_pro from '../../../public/man_profile.svg'
 
-function Registration() {
+function Auth() {
 
   return (
     <div className='reg'>
       <div className='inputReg'>
       <img src={man_pro} alt="" />
       <div className='greeting'>
-        <div className='greeting-text'>Регистрация</div>
+        <div className='greeting-text'>Вход</div>
 
         <input type="text" placeholder='Введите почту'/>
         <input type="password" placeholder='Введите пароль'/>
@@ -32,4 +32,4 @@ function Registration() {
   )
 }
 
-export default Registration
+export default Auth

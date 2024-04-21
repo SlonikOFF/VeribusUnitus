@@ -1,0 +1,50 @@
+.new{
+    width: 100%;
+    display: flex;
+    background: #17A1FA1A;
+
+    margin: 35px 0;
+
+
+    & > img{
+        width: 30%;
+        left: 3px;
+        gap: 0px;
+        border-radius: 0 20px 20px 0;
+        opacity: 0px;
+
+    }
+
+    & > .info{
+
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        margin: 20px;
+
+        & > *{
+            padding: 20px;
+        }
+        
+        & > .title{
+            padding-bottom: 10px;
+            font-family: Inter;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 31.47px;
+            text-align: left;                    
+            color: #1270B0;
+        }
+
+        & > .text{
+            font-family: Inter;
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 31.47px;
+            text-align: left;                    
+        }
+    }
+
+}

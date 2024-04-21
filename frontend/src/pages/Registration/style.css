@@ -53,7 +53,7 @@
         }
     
         & > input{
-            width: 60%;
+            /* width: 60%; */
             border-radius: 15px;
             border: 0px;
             background-color: #EFEFEF;
@@ -69,7 +69,9 @@
         }
     
         & > .button{
-            background: #17A1FA;        ;
+            background: #17A1FA;
+            align-items: center;
+            width: 70%;
             padding: 20px 40px 20px 40px;
             border-radius: 10px;
             color: white;

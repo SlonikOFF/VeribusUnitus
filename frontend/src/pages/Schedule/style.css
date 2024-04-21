@@ -4,16 +4,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 320px;
 
     & > .populars{
         display: flex;
         flex-direction: column;
         width: 100%;
-        padding: 0 50px;
         /* align-items: center;
         justify-content: center; */
 
         & > .title{
+            /* padding-top: 20px; */
+            /* padding-bottom: 10px; */
+
+            color: #1270B0;
+            padding-left: 10px;
+
             font-family: Inter;
             font-size: 30px;
             font-weight: 700;
@@ -38,6 +44,7 @@
                 margin: 10px;
 
                 & > .title{
+
                     position: absolute;
                     top: 20px;
                     left: 20px;
@@ -67,16 +74,36 @@
     }
 
     & > .dates{
-
+        padding-top: 50px;
         display: flex;
         justify-content: space-between;
-        height: 60vh;
-        width: 90%;
+        /* height: 60vh; */
+        width: 100%;
 
         & > .date{
+            padding-top: 0px;
+            margin: 10px;
+
+            & > span{
+                padding-bottom: 30px;
+
+                color: #1270B0;
+                font-family: Inter;
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 36.31px;
+                text-align: left;
+
+            }
             
             & > .months{
                 display: flex;
+                /* margin: 30px 0; */
+                margin-top: 30px;
+                /* width: 130px; */
+                height: 36px;
+                border-radius: 10px 0px 0px 0px;
+                color: white;
                 /* align-items: center; */
                 /* justify-content: space-around; */
                 
@@ -87,15 +114,20 @@
                     justify-content: center;
 
                     padding: 10px;
-                    background-color: #17A1FA;
+                    background-color: #333333;
                     border-radius: 15px;
+
+                    &.now{
+                        background-color: #17A1FA;
+                    }
                 }
                 
             }
         }
 
         & > .lessons{
-            /* flex: 1; */
+            flex: 1;
+            padding-top: 60px;
         }
     }
 }
