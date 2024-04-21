@@ -1,0 +1,41 @@
+.calendar{
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+
+    height: 200px;
+    width: auto;
+
+    & > table{
+        
+        & > tr{
+            display: flex;
+
+            & > td{
+                display: flex;
+                justify-content: center;
+                flex: 1;
+
+                width: 45px;
+                height: 45px;
+            }
+            & > .day{
+                padding: 10px;
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24.2px;
+                text-align: left;
+                color: #17A1FA;
+                background-color: #EFEFEF;
+
+                &:hover{
+                    background-color: #EFEFEF;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+
+    /* background-color: black; */
+}

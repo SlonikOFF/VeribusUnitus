@@ -1,0 +1,107 @@
+.lesson{
+    display: flex;
+    flex-direction: column;
+
+    width: 758px;
+    /* height: 170px; */
+
+    background-color: #179ffa30;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 25px;
+    
+    & > .numberClass{
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 18.15px;
+        text-align: left;
+        color: #17A1FA;
+    }
+
+    & > .class{
+
+        display: flex;
+        /* flex-direction: column; */
+
+        & > .time{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24.2px;
+            text-align: left;
+
+            border-left: 3px solid #17A1FA;
+            padding-left: 5px;
+        }
+
+        & > .info{
+            padding-left: 10px;
+            display: flex;
+            flex-direction: column;
+
+            & > .name{
+                font-family: Inter;
+                font-size: 26px;
+                font-weight: 700;
+                line-height: 31.47px;
+                text-align: left;                
+            }
+            & > .bottom{
+                display: flex;
+                justify-content: space-between;
+
+                & > .place{
+                    display: flex;
+                    align-items: center;
+
+                    & > img{
+                        /* padding-left: 5px; */
+                    }
+
+                    & > .number{
+                        padding-left: 10px;
+
+                        font-family: Inter;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24.2px;
+                        text-align: left;
+
+                    }
+                }
+
+                & > .teacher{
+                    padding-left: 50px;
+
+                    display: flex;
+                    align-items: center;
+
+                    & > img{
+                        /* padding-left: 5px; */
+                        /* width: 10px;
+                        height: 10px;
+                        background-color: black; */
+                    }
+
+                    & > .name{
+                        padding-left: 10px;
+
+                        font-family: Inter;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 24.2px;
+                        text-align: left;
+                        
+                    }
+                }
+
+            }
+        }
+    }
+    
+}

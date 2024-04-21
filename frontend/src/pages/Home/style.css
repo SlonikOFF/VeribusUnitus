@@ -1,0 +1,82 @@
+.home{
+    height: calc(100vh - 100px * 2);
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > img{
+        /* width: 50px;
+        height: 50px; */
+        margin-right: 50px;
+    }
+
+    & > .greeting{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & > *{
+            margin: 10px;
+        }
+
+        & > .greeting-text{
+            font-family: Inter;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 72.61px;
+            text-align: left;        
+            color: #1270B0;
+        }
+    
+        & > .about{
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24.2px;
+            text-align: left;        
+            color: #1270B0;
+        }
+    
+        & > .info{
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24.2px;
+            text-align: left;            
+            color: #1270B0;
+        }
+    
+        & > input{
+            width: 60%;
+            border-radius: 15px;
+            border: 0px;
+            background-color: #EFEFEF;
+    
+            padding: 20px;
+            
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24.2px;
+            text-align: left;
+    
+        }
+    
+        & > .button{
+            background: #17A1FA;        ;
+            width: 382px;
+            height: 71px;
+            padding: 20px 40px 20px 40px;
+            border-radius: 10px;
+            color: white;
+    
+            font-family: Inter;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 31.47px;
+            text-align: left;
+        }
+    }
+
+}
