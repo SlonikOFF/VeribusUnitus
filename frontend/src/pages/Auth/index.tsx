@@ -42,8 +42,8 @@ function Auth() {
 
         <div className='haveProfile'>
           <div>
-            <span className='haveProfile-text'>Уже есть профиль?&#x20;</span>
-            <span className='haveProfile-button'>Войти</span>
+            <span className='haveProfile-text'>Еще нет профиля?&#x20;</span>
+            <span className='haveProfile-button'>ЗАРЕГИСТРИРУЙТЕСЬ</span>
           </div>
           <div>
             При регистрации и входе вы соглашаетесь с политикой обработки данных
