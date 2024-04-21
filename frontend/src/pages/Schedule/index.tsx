@@ -50,8 +50,8 @@ function Schedule() {
           <Calendar />
         </div>
         <div className='lessons'>
-          <Lesson number={1} name={'Молекулярная физика'} place={'5-14'} teacher={'Иван Иванов'} />
-          <Lesson number={2} name={'Молекулярная физика'} place={'5-14'} teacher={'Иван Иванов'} />
+          <Lesson number={1} name={'Молекулярная физика'} place={'5-40'} teacher={'Иван Иванов'} />
+          <Lesson number={2} name={'Иностранный язык'} place={'5-45'} teacher={'Чистякова А. А., Тарабукина В. В.'} />
         </div>
       </div>
     </div>
